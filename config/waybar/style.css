@@ -1,0 +1,132 @@
+/* Waybar CSS - Paper Theme with Rounded Panel */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Fira Code", monospace;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+
+window#waybar {
+    background-color: rgba(248, 240, 229, 0.95);
+    color: #5c4b3a;
+    border: 1px solid rgba(139, 128, 105, 0.3);
+    border-radius: 16px;
+    margin: 8px;
+    box-shadow:
+    0 4px 20px rgba(139, 128, 105, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+
+#workspaces {
+background-color: rgba(248, 240, 229, 0.98);
+border: 1px solid rgba(139, 128, 105, 0.4);
+border-radius: 14px;
+padding: 0 8px;
+margin: 6px 4px 6px 6px;
+}
+
+#workspaces button {
+color: #8b8069;
+padding: 0 10px;
+border-radius: 10px;
+transition: all 0.2s ease;
+}
+
+#workspaces button:hover {
+background-color: rgba(139, 128, 105, 0.15);
+color: #5c4b3a;
+}
+
+#workspaces button.active {
+background-color: rgba(139, 128, 105, 0.25);
+color: #3d3223;
+font-weight: bold;
+}
+
+#workspaces button.urgent {
+background-color: rgba(188, 71, 71, 0.3);
+color: #8b1a1a;
+border-radius: 10px;
+}
+
+/* Clock */
+#clock {
+background-color: rgba(139, 128, 105, 0.2);
+color: #3d3223;
+border: 1px solid rgba(139, 128, 105, 0.4);
+border-radius: 14px;
+padding: 0 16px;
+margin: 6px 4px;
+font-weight: bold;
+}
+
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#tray {
+background-color: rgba(139, 128, 105, 0.15);
+color: #5c4b3a;
+border: 1px solid rgba(139, 128, 105, 0.4);
+border-radius: 14px;
+padding: 0 14px;
+margin: 6px 4px;
+font-weight: bold;
+transition: all 0.2s ease;
+}
+
+
+#pulseaudio.muted {
+color: #8b8069;
+}
+
+
+#network.disconnected {
+color: #8b8069;
+}
+
+#temperature.critical {
+background-color: rgba(188, 71, 71, 0.25);
+color: #8b1a1a;
+}
+
+#tray {
+margin: 6px 6px 6px 4px;
+padding: 0 14px;
+}
+
+#workspaces:hover,
+#clock:hover,
+#pulseaudio:hover,
+#network:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#tray:hover {
+background-color: rgba(139, 128, 105, 0.2);
+box-shadow: 0 2px 8px rgba(139, 128, 105, 0.1);
+}
+
+tooltip {
+    background-color: rgba(248, 240, 229, 0.98);
+    border: 1px solid rgba(139, 128, 105, 0.5);
+    border-radius: 12px;
+    color: #5c4b3a;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(139, 128, 105, 0.15);
+}
+
+tooltip label {
+    color: #5c4b3a;
+    font-weight: 500;
+}

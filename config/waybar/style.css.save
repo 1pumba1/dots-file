@@ -1,0 +1,102 @@
+* {
+    font-family: "Iosevka Nerd Font", "Font Awesome 6 Free";
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+window#waybar {
+    background-color: rgba(255, 224, 225, 0.8);
+    color: #5a4a4a;
+    margin: 5px 10px;
+    border-radius: 8px;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    background: transparent;
+    color: #8a6b6b;
+    border-radius: 4px;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 192, 203, 0.3); /*
+}
+
+#workspaces button.focused {
+    color: #ff6b93; /* Яркий акцентный розовый */
+    background: rgba(255, 192, 203, 0.4);
+    font-weight: bold;
+}
+
+#workspaces button.urgent {
+    color: #ff3366;
+    background: rgba(255, 51, 102, 0.2);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+#custom-menu,
+#clock,
+#tray,
+#custom-power {
+    background-color: rgba(255, 192, 203, 0.6);
+    padding: 0 15px;
+    margin: 0 3px;
+    color: #7a5a5a;
+    border-radius: 4px;
+}
+
+#clock {
+    color: #8a4b5a;
+    font-weight: bold;
+}
+
+#battery.charging,
+#bluetooth.connected,
+#network.ethernet {
+    color: #ff7ba3;
+}
+
+#battery.warning {
+    color: #ff9966;
+}
+
+#battery.critical:not(.charging),
+#network.disconnected {
+    color: #ff3366;
+    background: rgba(255, 51, 102, 0.1);
+}
+
+#pulseaudio.muted,
+#bluetooth.disabled {
+    color: #d4a8a8;
+    opacity: 0.7;
+}
+
+
+#window {
+    color: #6a4a4a;
+    font-weight: bold;
+}
+
+tooltip {
+    background: #ffe4e1;
+    color: #5a4a4a;
+    border: 1px solid #ffc0cb;
+    border-radius: 6px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: rgba(255, 51, 102, 0.3);
+}
+
