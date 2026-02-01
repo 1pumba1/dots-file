@@ -2,11 +2,13 @@
 <p align="center">
     <i>These are my personal config files that I use.</i>
 </p>
-<p><strong>OS</strong> - Cachy Os</p>
-<p><strong>Terminal</strong> - Kitty</p>
-<p><strong>File Manager</strong> - Dolphin</p>
-<p><strong>Status bar</strong> - waybar</p>
-<p><strong>Wallpaper</strong> - <a href="https://vsthemes.org/wallpapers/games/70438-christmas-mita-selfie.html">wallpaper</a></p>
+<ul>
+    <li>OS - Cachy Os</li>
+    <li>Terminal - Kitty (tokyo night theme)</li>
+    <li>File Manager - Dolphin</li>
+    <li>Status bar - waybar</li>
+    <li>Wallpaper - <a href="https://vsthemes.org/wallpapers/games/70438-christmas-mita-selfie.html">wallpaper</a></li>
+</ul>
 <p style="text-align: center;">Screenshots!</p>
 <p align="center">
   <img src="config/4.jpg" width="100%" alt="Картинка">
