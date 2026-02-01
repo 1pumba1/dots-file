@@ -4,7 +4,7 @@
 </p>
 <ul>
     <li>OS - Cachy Os</li>
-    <li>Terminal - Kitty (tokyo night theme)</li>
+    <li>Terminal - Kitty</li>
     <li>File Manager - Dolphin</li>
     <li>Status bar - waybar</li>
     <li>Wallpaper - <a href="https://vsthemes.org/wallpapers/games/70438-christmas-mita-selfie.html">wallpaper</a></li>
