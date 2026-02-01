@@ -6,3 +6,4 @@
 <p align="center">
   <img src="config/4.jpg" width="100%" alt="Картинка">
 </p>
+<a href="https://vsthemes.org/wallpapers/games/70438-christmas-mita-selfie.html">wallpaper</a>
