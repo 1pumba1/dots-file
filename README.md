@@ -1,4 +1,8 @@
-
+<h1 align="center">✦ Dotfiles ✦</h1>
+<p align="center">
+    <i>These are my personal config files that I use.</i>
+</p>
+## Screenshots!
 <p align="center">
   <img src="config/6.jpg" width="100%" alt="Картинка">
 </p>
